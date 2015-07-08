@@ -1,3 +1,3 @@
 (function() {
-  d3.select("body").append("p").text("Hello world");
+  var k = d3.select("#histogram").selectAll("p").data([1]).enter().append("p").text("Hello world");
 })();
